@@ -1,0 +1,330 @@
+2019-06-07 02:01:10,014 - DEBUG - project.reports.get_publish_salesforce_data - Adding [0000-initial.csv] to archive
+DEBUG - root - Preparing to Launch Script
+2019-06-07 01:01:12,465 - DEBUG - helpers.highwinds - Authorizing...
+2019-06-07 01:01:11,236 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\2019-05-04-160425.csv
+2019-06-07 02:01:10,777 - DEBUG - helpers.highwinds - Connecting to Vault: [[REDACTED]
+2019-06-07 02:01:07,944 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download
+2019-06-07 02:01:09,947 - INFO - buildsystem - total size is 12,295,149  speedup is 2.19
+2019-06-07 01:01:13,170 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+2019-06-07 01:01:12,319 - DEBUG - helpers.highwinds - Vault Connection Successful
+2019-06-07 02:01:10,014 - INFO - project.reports.get_publish_salesforce_data - Zipping up contents of [C:\cygwin64\home\Build\download]
+2019-06-06 01:01:30,379 - DEBUG - helpers.fileinteraction - Clearing readonly on [C:\cygwin64\home\Build\download]
+2019-06-07 02:01:07,976 - DEBUG - project.reports.get_publish_salesforce_data - Running [C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh]
+DEBUG - root - Preparing to Launch Script
+2019-06-07 01:01:12,324 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-06 01:01:33,358 - INFO - buildsystem - Scanning
+2019-06-07 02:01:12,852 - DEBUG - helpers.fileinteraction - Deleting c:\users\build.6ft\appdata\local\temp\tmpang5xb
+2019-06-06 01:01:33,402 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\2019-05-04-160425.csv
+2019-06-07 01:01:08,416 - DEBUG - project.reports.get_publish_salesforce_data - Beginning download of files from server
+2019-06-06 01:01:33,400 - INFO - buildsystem - Compressing  2019-05-04-160425.csv
+DEBUG - root - Initializing Branch Specific Settings
+2019-06-07 01:01:11,237 - INFO - helpers.highwinds - Reading CDN configuration information...
+2019-06-06 01:01:30,366 - INFO - buildsystem - Running takeown /f C:\cygwin64\home\Build\download /R /A
+2019-06-06 01:01:31,504 - INFO - buildsystem - 0000-initial.csv
+2019-06-07 01:01:08,398 - INFO - buildsystem - Process Success [Args takeown /f C:\cygwin64\home\Build\download /R /A]
+2019-06-07 02:01:10,776 - INFO - buildsystem - Compressing  2019-05-04-160425.csv
+2019-06-07 02:01:07,976 - DEBUG - project.reports.get_publish_salesforce_data - Beginning download of files from server
+2019-06-07 01:01:10,390 - INFO - buildsystem - total size is 12,295,149  speedup is 2.19
+2019-06-07 02:01:07,944 - INFO - buildsystem - Running takeown /f C:\cygwin64\home\Build\download /R /A
+2019-06-07 02:01:07,942 - DEBUG - root - Function [do_salesforce_work] found... Executing...
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+2019-06-07 02:01:10,757 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\0000-initial.csv
+2019-06-06 01:01:34,545 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/sixfoot/highwinds/sixfoot-ae16 HTTP/1.1" 200 117
+2019-06-06 01:01:35,318 - INFO - helpers.highwinds - Archiving files in path [C:\cygwin64\home\Build\download]
+2019-06-07 01:01:08,386 - DEBUG - helpers.fileinteraction - Deleting directory 'C:\cygwin64\home\Build\download'
+2019-06-07 01:01:13,133 - DEBUG - requests.packages.urllib3.connectionpool - "GET /auth/v1.0 HTTP/1.1" 200 91
+2019-06-07 01:01:11,207 - DEBUG - project.reports.get_publish_salesforce_data - Removing archived file [0000-initial.csv]
+2019-06-06 01:01:33,403 - INFO - helpers.highwinds - Reading CDN configuration information...
+2019-06-07 01:01:08,398 - INFO - buildsystem - Execution Time: [0.011008 seconds]
+2019-06-07 02:01:12,153 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): eu.hcs.hwcdn.net
+2019-06-07 01:01:08,384 - DEBUG - root - Arguments initialized
+2019-06-07 02:01:14,691 - INFO - project.reports.get_publish_salesforce_data - Process complete, you can download this file by running curl -L [REDACTED]
+2019-06-06 01:01:33,401 - INFO - buildsystem - Everything is Ok
+2019-06-07 02:01:12,819 - INFO - helpers.highwinds - Archiving files in path [C:\cygwin64\home\Build\download]
+2019-06-07 02:01:10,777 - DEBUG - project.reports.get_publish_salesforce_data - Removing archived file [2019-05-04-160425.csv]
+2019-06-07 02:01:10,776 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+2019-06-06 01:01:30,387 - INFO - buildsystem - Running C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh
+2019-06-06 01:01:33,401 - INFO - buildsystem - Process Success [Args C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 06-06-2019.zip 2019-05-04-160425.csv]
+2019-06-07 01:01:11,235 - INFO - buildsystem - Scanning
+2019-06-07 02:01:10,776 - WARNING - buildsystem - Updating archive 07-06-2019.zip
+2019-06-06 01:01:35,348 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+2019-06-06 01:01:33,401 - DEBUG - project.reports.get_publish_salesforce_data - Removing archived file [2019-05-04-160425.csv]
+2019-06-06 01:01:33,357 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+2019-06-07 02:01:10,777 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\2019-05-04-160425.csv
+2019-06-07 01:01:11,206 - INFO - buildsystem - Scanning
+2019-06-07 02:01:12,005 - DEBUG - helpers.highwinds - Vault Connection Successful
+2019-06-06 01:01:30,366 - DEBUG - helpers.fileinteraction - Taking ownership of [C:\cygwin64\home\Build\download]
+2019-06-06 01:01:35,352 - INFO - helpers.highwinds - Uploading [C:\cygwin64\home\Build\download\cdn_payload.tar] to the CDN
+2019-06-07 02:01:07,959 - INFO - buildsystem - Process Success [Args takeown /f C:\cygwin64\home\Build\download /R /A]
+2019-06-06 01:01:31,388 - INFO - buildsystem - receiving incremental file list
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+2019-06-07 01:01:14,975 - WARNING - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\cdn_payload.tar
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-06 01:01:30,385 - INFO - buildsystem - Execution Time: [0.006003 seconds]
+2019-06-07 01:01:08,386 - INFO - buildsystem - Running takeown /f C:\cygwin64\home\Build\download /R /A
+2019-06-07 01:01:08,416 - DEBUG - project.reports.get_publish_salesforce_data - Running [C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh]
+2019-06-07 01:01:08,413 - INFO - buildsystem - Process Success [Args attrib -R C:\cygwin64\home\Build\download\*.* /S]
+2019-06-07 01:01:09,501 - INFO - buildsystem - 0000-initial.csv
+2019-06-07 01:01:11,234 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-06 01:01:30,379 - INFO - buildsystem - Process Success [Args takeown /f C:\cygwin64\home\Build\download /R /A]
+2019-06-06 01:01:30,377 - INFO - buildsystem - SUCCESS: The file (or folder): "C:\cygwin64\home\Build\download" now owned by the administrators group.
+2019-06-07 01:01:13,170 - INFO - buildsystem - Creating archive C:\cygwin64\home\Build\download\cdn_payload.tar
+2019-06-07 02:01:10,013 - INFO - buildsystem - Process Success [Args C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh]
+2019-06-06 01:01:33,399 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+DEBUG - root - Initializing Branch Specific Settings
+2019-06-07 02:01:12,812 - DEBUG - requests.packages.urllib3.connectionpool - "GET /auth/v1.0 HTTP/1.1" 200 91
+INFO - buildsystem - Initialized
+2019-06-06 01:01:35,357 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): eu.hcs.hwcdn.net
+2019-06-07 01:01:11,236 - INFO - buildsystem - Execution Time: [0.027042 seconds]
+2019-06-07 02:01:12,002 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/auth/token/lookup-self HTTP/1.1" 200 462
+2019-06-07 02:01:10,757 - INFO - buildsystem - Compressing  0000-initial.csv
+2019-06-07 02:01:12,129 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1//yager/project/striketracker HTTP/1.1" 301 70
+2019-06-07 01:01:10,389 - INFO - buildsystem - sent 62 bytes  received 5,616,488 bytes  2,246,620.00 bytes/sec
+2019-06-07 02:01:10,757 - INFO - buildsystem - Everything is Ok
+2019-06-06 01:01:30,365 - INFO - project.reports.get_publish_salesforce_data - Download script written to [C:\cygwin64\home\Build\download.sh]
+DEBUG - root - Initializing module, [project.reports.get_publish_salesforce_data]
+2019-06-06 01:01:37,334 - WARNING - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\cdn_payload.tar
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+2019-06-06 01:01:33,361 - INFO - buildsystem - Running C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 06-06-2019.zip 2019-05-04-160425.csv
+2019-06-06 01:01:33,400 - WARNING - buildsystem - Updating archive 06-06-2019.zip
+2019-06-07 02:01:10,776 - INFO - buildsystem - Everything is Ok
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-07 02:01:07,699 - DEBUG - root - Logging Timestamps Enabled
+2019-06-07 02:01:09,103 - INFO - buildsystem - 0000-initial.csv
+2019-06-07 02:01:14,689 - WARNING - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\cdn_payload.tar
+2019-06-07 01:01:08,386 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download
+2019-06-07 02:01:09,024 - INFO - buildsystem - created directory ./download
+2019-06-06 01:01:31,424 - INFO - buildsystem - created directory ./download
+2019-06-07 02:01:10,757 - INFO - buildsystem - Process Success [Args C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 07-06-2019.zip 0000-initial.csv]
+2019-06-07 02:01:14,689 - INFO - helpers.highwinds - Removing upload archive from local file system.
+2019-06-07 02:01:12,148 - ERROR - helpers.highwinds - Invalid purge credentials: Purging disabled
+2019-06-07 01:01:08,384 - DEBUG - root - Module Loaded - Initializing arguments within script
+2019-06-07 01:01:13,170 - INFO - buildsystem - Scanning
+2019-06-07 02:01:10,756 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+2019-06-07 02:01:07,960 - INFO - buildsystem - Running attrib -R C:\cygwin64\home\Build\download\*.* /S
+2019-06-06 01:01:35,321 - INFO - buildsystem - Running C:\Program Files\7-zip\7z.exe a -ttar -mx3 C:\cygwin64\home\Build\download\cdn_payload.tar @c:\users\build.6ft\appdata\local\temp\tmpn_7zvx
+2019-06-07 01:01:08,398 - DEBUG - helpers.fileinteraction - Clearing readonly on [C:\cygwin64\home\Build\download]
+2019-06-06 01:01:33,358 - INFO - buildsystem - Creating archive 06-06-2019.zip
+2019-06-07 01:01:11,206 - INFO - buildsystem - Execution Time: [0.747492 seconds]
+2019-06-07 02:01:12,818 - INFO - helpers.highwinds - Connected to CDN.
+2019-06-07 01:01:13,172 - DEBUG - helpers.fileinteraction - Deleting c:\users\build.6ft\appdata\local\temp\tmpq4y3y1
+2019-06-07 02:01:07,943 - DEBUG - project.reports.get_publish_salesforce_data - Deleting previous data if it exists
+2019-06-07 01:01:11,235 - INFO - buildsystem - Everything is Ok
+2019-06-07 02:01:07,944 - DEBUG - helpers.fileinteraction - Deleting directory 'C:\cygwin64\home\Build\download'
+2019-06-07 02:01:10,802 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-07 01:01:12,465 - DEBUG - helpers.highwinds - Init Connection to CDN...
+2019-06-07 02:01:07,957 - INFO - buildsystem - SUCCESS: The file (or folder): "C:\cygwin64\home\Build\download" now owned by the administrators group.
+2019-06-07 01:01:13,172 - INFO - helpers.highwinds - Uploading [C:\cygwin64\home\Build\download\cdn_payload.tar] to the CDN
+2019-06-06 01:01:33,358 - INFO - buildsystem - Everything is Ok
+2019-06-06 01:01:34,630 - ERROR - helpers.highwinds - Invalid purge credentials: Purging disabled
+2019-06-07 01:01:09,420 - INFO - buildsystem - created directory ./download
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+2019-06-06 01:01:35,349 - INFO - buildsystem - Compressing  06-06-2019.zip
+DEBUG - root - Initializing module, [project.reports.get_publish_salesforce_data]
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-07 01:01:08,414 - INFO - buildsystem - Execution Time: [0.014009 seconds]
+2019-06-07 01:01:08,384 - DEBUG - root - Function [do_salesforce_work] found... Executing...
+2019-06-06 01:01:34,635 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): eu.hcs.hwcdn.net
+2019-06-07 02:01:14,688 - INFO - helpers.highwinds - Upload C:\cygwin64\home\Build\download\cdn_payload.tar -> [REDACTED]
+2019-06-07 01:01:11,208 - DEBUG - project.reports.get_publish_salesforce_data - Adding [2019-05-04-160425.csv] to archive
+2019-06-07 01:01:10,457 - INFO - project.reports.get_publish_salesforce_data - Zipping up contents of [C:\cygwin64\home\Build\download]
+2019-06-07 01:01:12,259 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-07 02:01:12,822 - INFO - buildsystem - Running C:\Program Files\7-zip\7z.exe a -ttar -mx3 C:\cygwin64\home\Build\download\cdn_payload.tar @c:\users\build.6ft\appdata\local\temp\tmpang5xb
+2019-06-07 02:01:10,015 - INFO - buildsystem - Running C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 07-06-2019.zip 0000-initial.csv
+2019-06-07 01:01:11,237 - INFO - project.reports.get_publish_salesforce_data - Uploading [C:\cygwin64\home\Build\download\07-06-2019.zip] to Highwinds in container [salesforce]
+2019-06-07 02:01:09,881 - INFO - buildsystem - 2019-05-04-160425.csv
+2019-06-06 01:01:30,363 - DEBUG - root - Arguments initialized
+2019-06-06 01:01:30,366 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download
+2019-06-06 01:01:33,442 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-07 01:01:08,399 - INFO - buildsystem - Running attrib -R C:\cygwin64\home\Build\download\*.* /S
+2019-06-07 02:01:08,988 - INFO - buildsystem - receiving incremental file list
+2019-06-07 02:01:10,757 - DEBUG - project.reports.get_publish_salesforce_data - Removing archived file [0000-initial.csv]
+2019-06-07 02:01:12,850 - INFO - buildsystem - Creating archive C:\cygwin64\home\Build\download\cdn_payload.tar
+2019-06-07 02:01:07,973 - INFO - buildsystem - Process Success [Args attrib -R C:\cygwin64\home\Build\download\*.* /S]
+2019-06-07 02:01:10,777 - INFO - project.reports.get_publish_salesforce_data - Uploading [C:\cygwin64\home\Build\download\07-06-2019.zip] to Highwinds in container [salesforce]
+2019-06-07 01:01:11,206 - INFO - buildsystem - Compressing  0000-initial.csv
+2019-06-07 02:01:11,934 - DEBUG - requests.packages.urllib3.connectionpool - "POST /v1/auth/cert/login HTTP/1.1" 200 363
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-06 01:01:30,364 - INFO - project.reports.get_publish_salesforce_data - Beginning saleforce process
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-06 01:01:30,365 - DEBUG - project.reports.get_publish_salesforce_data - Deleting previous data if it exists
+2019-06-07 01:01:10,456 - INFO - buildsystem - Process Success [Args C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh]
+INFO - buildsystem - Initialized
+
+2019-06-07 01:01:13,143 - INFO - buildsystem - Running C:\Program Files\7-zip\7z.exe a -ttar -mx3 C:\cygwin64\home\Build\download\cdn_payload.tar @c:\users\build.6ft\appdata\local\temp\tmpq4y3y1
+2019-06-07 01:01:13,139 - INFO - helpers.highwinds - Archiving files in path [C:\cygwin64\home\Build\download]
+2019-06-07 02:01:10,758 - DEBUG - project.reports.get_publish_salesforce_data - Adding [2019-05-04-160425.csv] to archive
+2019-06-07 01:01:14,967 - DEBUG - requests.packages.urllib3.connectionpool - "PUT /v1/AUTH_sixfoot-ae16/salesforce?extract-archive=tar&path=[REDACTED]
+2019-06-07 01:01:11,208 - INFO - buildsystem - Running C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 07-06-2019.zip 2019-05-04-160425.csv
+2019-06-06 01:01:34,628 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/yager/project/striketracker HTTP/1.1" 404 14
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-06 01:01:37,336 - INFO - project.reports.get_publish_salesforce_data - Process complete, you can download this file by running curl -L [REDACTED]2019-06-06 01:01:30,387 - DEBUG - project.reports.get_publish_salesforce_data - Beginning download of files from server
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-07 02:01:07,977 - INFO - buildsystem - Running C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh
+2019-06-06 01:01:34,631 - DEBUG - helpers.highwinds - Authorizing...
+DEBUG - root - BuildSys arguments parsed
+2019-06-07 02:01:07,941 - DEBUG - root - Finding function [do_salesforce_work]
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-06 01:01:35,349 - INFO - buildsystem - Creating archive C:\cygwin64\home\Build\download\cdn_payload.tar
+DEBUG - root - Initializing module, [project.reports.get_publish_salesforce_data]
+2019-06-07 01:01:14,975 - INFO - helpers.highwinds - Removing upload archive from local file system.
+2019-06-07 01:01:10,311 - INFO - buildsystem - 2019-05-04-160425.csv
+2019-06-07 01:01:11,206 - INFO - buildsystem - Everything is Ok
+2019-06-07 01:01:14,978 - INFO - project.reports.get_publish_salesforce_data - Process complete, you can download this file by running curl -L [REDACTED]
+2019-06-07 02:01:07,942 - DEBUG - project.reports.get_publish_salesforce_data - Writing download script
+2019-06-07 01:01:11,274 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-06 01:01:32,442 - INFO - buildsystem - Process Success [Args C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh]
+2019-06-06 01:01:30,364 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download.sh
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-07 02:01:10,757 - INFO - buildsystem - Creating archive 07-06-2019.zip
+2019-06-07 01:01:12,462 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/yager/project/striketracker HTTP/1.1" 404 14
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-06 01:01:33,359 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\0000-initial.csv
+2019-06-07 01:01:08,416 - INFO - buildsystem - Running C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh
+2019-06-07 02:01:12,066 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/sixfoot/highwinds/sixfoot-ae16 HTTP/1.1" 200 117
+2019-06-07 01:01:12,465 - ERROR - helpers.highwinds - Invalid purge credentials: Purging disabled
+2019-06-07 01:01:11,236 - DEBUG - project.reports.get_publish_salesforce_data - Removing archived file [2019-05-04-160425.csv]
+2019-06-07 01:01:11,238 - DEBUG - helpers.highwinds - Connecting to Vault: [[REDACTED]
+2019-06-06 01:01:32,442 - INFO - project.reports.get_publish_salesforce_data - Zipping up contents of [C:\cygwin64\home\Build\download]
+2019-06-06 01:01:35,312 - DEBUG - requests.packages.urllib3.connectionpool - "GET /auth/v1.0 HTTP/1.1" 200 91
+2019-06-07 01:01:09,384 - INFO - buildsystem - receiving incremental file list
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-07 02:01:12,072 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-06 01:01:30,387 - DEBUG - project.reports.get_publish_salesforce_data - Running [C:\cygwin64\bin\bash.exe -li /cygdrive/c/cygwin64/home/Build/download.sh]
+2019-06-06 01:01:32,376 - INFO - buildsystem - total size is 12,295,149  speedup is 2.19
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-07 01:01:08,385 - DEBUG - project.reports.get_publish_salesforce_data - Writing download script
+2019-06-06 01:01:33,358 - INFO - buildsystem - Compressing  0000-initial.csv
+2019-06-07 02:01:12,850 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+2019-06-07 01:01:13,171 - INFO - buildsystem - Compressing  07-06-2019.zip
+DEBUG - root - BuildSys arguments parsed
+
+2019-06-07 01:01:11,235 - INFO - buildsystem - Process Success [Args C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 07-06-2019.zip 2019-05-04-160425.csv]
+2019-06-07 01:01:12,384 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/sixfoot/highwinds/sixfoot-ae16 HTTP/1.1" 200 117
+2019-06-06 01:01:33,401 - INFO - buildsystem - Execution Time: [0.03901 seconds]
+2019-06-06 01:01:35,350 - INFO - buildsystem - Execution Time: [0.027992 seconds]
+2019-06-07 02:01:10,777 - INFO - helpers.highwinds - Reading CDN configuration information...
+2019-06-06 01:01:32,442 - INFO - buildsystem - Execution Time: [2.053426 seconds]
+INFO - buildsystem - Initialized
+2019-06-07 02:01:12,850 - INFO - buildsystem - Everything is Ok
+2019-06-06 01:01:35,349 - INFO - buildsystem - Scanning
+2019-06-06 01:01:37,327 - DEBUG - requests.packages.urllib3.connectionpool - "PUT /v1/AUTH_sixfoot-ae16/salesforce?extract-archive=tar&path=[REDACTED]
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+2019-06-06 01:01:34,631 - DEBUG - helpers.highwinds - Init Connection to CDN...
+2019-06-07 01:01:12,317 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/auth/token/lookup-self HTTP/1.1" 200 462
+2019-06-07 02:01:07,942 - INFO - project.reports.get_publish_salesforce_data - Beginning saleforce process
+2019-06-07 01:01:13,176 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): eu.hcs.hwcdn.net
+2019-06-06 01:01:30,379 - INFO - buildsystem - Execution Time: [0.01301 seconds]
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+2019-06-06 01:01:33,404 - DEBUG - helpers.highwinds - Connecting to Vault: [[REDACTED]
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+2019-06-07 02:01:14,682 - DEBUG - requests.packages.urllib3.connectionpool - "PUT /v1/AUTH_sixfoot-ae16/salesforce?extract-archive=tar&path=[REDACTED]
+2019-06-07 01:01:11,206 - INFO - buildsystem - 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+2019-06-07 02:01:12,009 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-06 01:01:32,375 - INFO - buildsystem - sent 62 bytes  received 5,616,488 bytes  2,246,620.00 bytes/sec
+2019-06-07 01:01:08,384 - DEBUG - root - Finding function [do_salesforce_work]
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-07 01:01:13,171 - INFO - buildsystem - Execution Time: [0.027992 seconds]
+2019-06-07 02:01:12,851 - INFO - buildsystem - Process Success [Args C:\Program Files\7-zip\7z.exe a -ttar -mx3 C:\cygwin64\home\Build\download\cdn_payload.tar @c:\users\build.6ft\appdata\local\temp\tmpang5xb]
+2019-06-06 01:01:35,351 - DEBUG - helpers.fileinteraction - Deleting c:\users\build.6ft\appdata\local\temp\tmpn_7zvx
+2019-06-07 02:01:07,960 - DEBUG - helpers.fileinteraction - Clearing readonly on [C:\cygwin64\home\Build\download]
+2019-06-07 01:01:11,235 - INFO - buildsystem - Updating archive 07-06-2019.zip
+2019-06-06 01:01:33,403 - INFO - project.reports.get_publish_salesforce_data - Uploading [C:\cygwin64\home\Build\download\06-06-2019.zip] to Highwinds in container [salesforce]
+2019-06-06 01:01:30,125 - DEBUG - root - Logging Timestamps Enabled
+2019-06-07 01:01:08,386 - DEBUG - project.reports.get_publish_salesforce_data - Deleting previous data if it exists
+2019-06-06 01:01:37,333 - INFO - helpers.highwinds - Upload C:\cygwin64\home\Build\download\cdn_payload.tar -> [REDACTED]
+2019-06-07 01:01:10,456 - INFO - buildsystem - Execution Time: [2.039359 seconds]
+
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+[timeout: 5 workingDir: C:\cygwin64\home\Build\download]
+2019-06-07 02:01:07,958 - INFO - buildsystem - SUCCESS: The file (or folder): "C:\cygwin64\home\Build\download\07-06-2019.zip" now owned by the administrators group.
+2019-06-07 01:01:12,252 - DEBUG - requests.packages.urllib3.connectionpool - "POST /v1/auth/cert/login HTTP/1.1" 200 363
+2019-06-07 02:01:10,757 - INFO - buildsystem - Execution Time: [0.742489 seconds]
+2019-06-07 02:01:09,946 - INFO - buildsystem - sent 62 bytes  received 5,616,488 bytes  3,744,366.67 bytes/sec
+2019-06-06 01:01:30,364 - DEBUG - project.reports.get_publish_salesforce_data - Writing download script
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-07 02:01:12,857 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): eu.hcs.hwcdn.net
+2019-06-07 02:01:12,851 - INFO - buildsystem - Execution Time: [0.029019 seconds]
+2019-06-06 01:01:33,359 - DEBUG - project.reports.get_publish_salesforce_data - Removing archived file [0000-initial.csv]
+2019-06-06 01:01:35,318 - INFO - helpers.highwinds - Connected to CDN.
+2019-06-07 02:01:07,944 - DEBUG - helpers.fileinteraction - Taking ownership of [C:\cygwin64\home\Build\download]
+2019-06-07 01:01:08,397 - INFO - buildsystem - SUCCESS: The file (or folder): "C:\cygwin64\home\Build\download\06-06-2019.zip" now owned by the administrators group.
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-07 02:01:07,943 - INFO - project.reports.get_publish_salesforce_data - Download script written to [C:\cygwin64\home\Build\download.sh]
+2019-06-06 01:01:37,333 - INFO - helpers.highwinds - Removing upload archive from local file system.
+2019-06-07 01:01:12,469 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): eu.hcs.hwcdn.net
+2019-06-07 01:01:13,171 - INFO - buildsystem - Process Success [Args C:\Program Files\7-zip\7z.exe a -ttar -mx3 C:\cygwin64\home\Build\download\cdn_payload.tar @c:\users\build.6ft\appdata\local\temp\tmpq4y3y1]
+2019-06-07 01:01:10,457 - DEBUG - project.reports.get_publish_salesforce_data - Adding [0000-initial.csv] to archive
+2019-06-07 02:01:12,850 - INFO - buildsystem - Scanning
+2019-06-06 01:01:34,479 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/auth/token/lookup-self HTTP/1.1" 200 470
+2019-06-07 01:01:08,181 - DEBUG - root - Logging Timestamps Enabled
+2019-06-07 02:01:12,852 - INFO - helpers.highwinds - Uploading [C:\cygwin64\home\Build\download\cdn_payload.tar] to the CDN
+2019-06-07 01:01:12,447 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1//yager/project/striketracker HTTP/1.1" 301 70
+2019-06-07 02:01:11,940 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-07 02:01:12,850 - INFO - buildsystem - Compressing  07-06-2019.zip
+2019-06-06 01:01:32,444 - INFO - buildsystem - Running C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 06-06-2019.zip 0000-initial.csv
+2019-06-06 01:01:32,443 - DEBUG - project.reports.get_publish_salesforce_data - Adding [0000-initial.csv] to archive
+2019-06-07 02:01:10,759 - INFO - buildsystem - Running C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 07-06-2019.zip 2019-05-04-160425.csv
+2019-06-07 02:01:10,013 - INFO - buildsystem - Execution Time: [2.03558 seconds]
+2019-06-06 01:01:30,363 - DEBUG - root - Module Loaded - Initializing arguments within script
+2019-06-07 01:01:08,384 - INFO - project.reports.get_publish_salesforce_data - Beginning saleforce process
+2019-06-06 01:01:32,300 - INFO - buildsystem - 2019-05-04-160425.csv
+2019-06-06 01:01:33,361 - DEBUG - project.reports.get_publish_salesforce_data - Adding [2019-05-04-160425.csv] to archive
+2019-06-07 01:01:11,207 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download\0000-initial.csv
+2019-06-06 01:01:34,611 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1//yager/project/striketracker HTTP/1.1" 301 70
+DEBUG - root - Preparing to Launch Script
+2019-06-07 02:01:07,960 - INFO - buildsystem - Execution Time: [0.01503 seconds]
+2019-06-06 01:01:30,364 - DEBUG - root - Function [do_salesforce_work] found... Executing...
+2019-06-07 02:01:12,148 - DEBUG - helpers.highwinds - Init Connection to CDN...
+2019-06-07 02:01:10,776 - INFO - buildsystem - Process Success [Args C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 07-06-2019.zip 2019-05-04-160425.csv]
+2019-06-06 01:01:30,364 - DEBUG - root - Finding function [do_salesforce_work]
+
+2019-06-07 01:01:10,458 - INFO - buildsystem - Running C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 07-06-2019.zip 0000-initial.csv
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-07 02:01:10,776 - INFO - buildsystem - Execution Time: [0.017011 seconds]
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-06 01:01:35,350 - INFO - buildsystem - Everything is Ok
+
+2019-06-06 01:01:33,400 - INFO - buildsystem - Scanning
+
+2019-06-06 01:01:33,358 - INFO - buildsystem - Process Success [Args C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 06-06-2019.zip 0000-initial.csv]
+2019-06-06 01:01:34,418 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-07 01:01:11,206 - INFO - buildsystem - Process Success [Args C:\Program Files\7-Zip\7z.exe a -tzip -mmt -mx3 -mcu 07-06-2019.zip 0000-initial.csv]
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-07 02:01:07,941 - DEBUG - root - Module Loaded - Initializing arguments within script
+
+2019-06-06 01:01:34,412 - DEBUG - requests.packages.urllib3.connectionpool - "POST /v1/auth/cert/login HTTP/1.1" 200 367
+C:\python33\lib\site-packages\requests-2.8.1-py3.3.egg\requests\packages\urllib3\connectionpool.py:789: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: [REDACTED]
+2019-06-06 01:01:34,481 - DEBUG - helpers.highwinds - Vault Connection Successful
+2019-06-07 02:01:07,974 - INFO - buildsystem - Execution Time: [0.013023 seconds]
+
+2019-06-07 02:01:10,776 - INFO - buildsystem - Scanning
+2019-06-06 01:01:34,552 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-06 01:01:34,485 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+DEBUG - root - BuildSys arguments parsed
+2019-06-07 01:01:12,390 - INFO - requests.packages.urllib3.connectionpool - Starting new HTTPS connection (1): 169.45.151.94
+2019-06-06 01:01:30,385 - INFO - buildsystem - Process Success [Args attrib -R C:\cygwin64\home\Build\download\*.* /S]
+2019-06-07 02:01:12,148 - DEBUG - helpers.highwinds - Authorizing...
+2019-06-07 01:01:11,235 - INFO - buildsystem - Compressing  2019-05-04-160425.csv
+2019-06-06 01:01:30,379 - INFO - buildsystem - Running attrib -R C:\cygwin64\home\Build\download\*.* /S
+2019-06-07 01:01:08,386 - INFO - project.reports.get_publish_salesforce_data - Download script written to [C:\cygwin64\home\Build\download.sh]
+2019-06-06 01:01:30,378 - INFO - buildsystem - SUCCESS: The file (or folder): "C:\cygwin64\home\Build\download\05-06-2019.zip" now owned by the administrators group.
+2019-06-06 01:01:33,358 - INFO - buildsystem - Execution Time: [0.914636 seconds]
+2019-06-07 01:01:13,139 - INFO - helpers.highwinds - Connected to CDN.
+2019-06-07 01:01:08,396 - INFO - buildsystem - SUCCESS: The file (or folder): "C:\cygwin64\home\Build\download" now owned by the administrators group.
+2019-06-07 01:01:14,975 - INFO - helpers.highwinds - Upload C:\cygwin64\home\Build\download\cdn_payload.tar -> [REDACTED]
+2019-06-07 01:01:11,206 - INFO - buildsystem - Creating archive 07-06-2019.zip
+2019-06-07 02:01:07,942 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download.sh
+2019-06-07 02:01:12,145 - DEBUG - requests.packages.urllib3.connectionpool - "GET /v1/yager/project/striketracker HTTP/1.1" 404 14
+[timeout: 5 workingDir: C:\Jenkins\workspace\get_salesforce_data\tech\build\scripts]
+2019-06-07 01:01:08,386 - DEBUG - helpers.fileinteraction - Taking ownership of [C:\cygwin64\home\Build\download]
+2019-06-07 02:01:10,757 - INFO - buildsystem - Scanning
+DEBUG - root - Initializing Branch Specific Settings
+2019-06-06 01:01:30,366 - DEBUG - helpers.fileinteraction - Deleting directory 'C:\cygwin64\home\Build\download'
+2019-06-06 01:01:35,350 - INFO - buildsystem - Process Success [Args C:\Program Files\7-zip\7z.exe a -ttar -mx3 C:\cygwin64\home\Build\download\cdn_payload.tar @c:\users\build.6ft\appdata\local\temp\tmpn_7zvx]
+2019-06-07 01:01:08,385 - DEBUG - helpers.fileinteraction - Deleting C:\cygwin64\home\Build\download.sh
+2019-06-07 02:01:07,941 - DEBUG - root - Arguments initialized
